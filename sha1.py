@@ -12,9 +12,6 @@ def shaone (text):
     # convert the hash object to a hexadecimal value
     hexa_value = hash_obj.hexdigest()
 
-    # print
-    #print("\n h = ", hexa_value)
-
     return hexa_value
 
 def H(text1,text2):
@@ -23,16 +20,16 @@ def H(text1,text2):
     x = 0
 
     while True :
-        print('\n\n ==> X = ',x ,'\n ===> X apres le hashage est : ',shaone( str(x) ))
+        
+        print('\n\n==> X = ',x ,'\n===> X apres le hashage est : ',shaone( str(x) ))
         h = shaone( id + str(x) )
+        
         if h <= y :
             print('====> la valeur de H apres le hashage : ',shaone(id + str(x)) )
             return x
         
         x += 1
         
-
-
 id = "bettiouifarid"
 y = "03b1663dda6549a0939ffdd712a852e0d4234e6b"
 
