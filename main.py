@@ -1,12 +1,31 @@
 # import the library module
 import hashlib
+import random
+import string
 
 #Fonctions
-def sha(text):
+def sha(text,result):
+    count = 0
+    
     x = "0"
-    h = 0
+    h = hashlib.new(text,x) 
+    
+    print (h.hexdigest())
+    
+    
+    while 1:
 
+        count += 1
+        
+        
+        x = string.ascii_lowercase
+        print ( ''.join(random.choice(x) for i in range(count)) )
+        
 
+        if h <= result:
+            print(x)
+            return x
+    
 
 def shaone (text):
 
@@ -26,7 +45,7 @@ def shaone (text):
 
 
 # initialize a id
-id = shaone("bettiouifarid")
+id = "bettiouifarid"
 
 # initialize the Y
 y = "03b1663dda6549a0939ffdd712a852e0d4234e6b"
