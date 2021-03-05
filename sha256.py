@@ -16,7 +16,7 @@ def sha256 (text):
 def H(text1,text2):
     id = text1
     y = text2
-    x = 0      #10000000015880         
+    x = 0       #10000000015880         
 
     while True :
         
@@ -33,3 +33,6 @@ id = "bettiouifarid"
 y = "00005d10cc11e27bd8d4d1ce91bc725665ddbaa6ca2498ef38a88a58ad48cdb4"
 
 x = H(id , y)
+
+#X apres le hashage est :  bdc954f3c2058d4a7a5c349cccc8295eac3d244ac2c2b7383b447d76fb0a2830
+#la valeur de H apres le hashage :  00000a04e461b771d88284ed986dd69b49f3ab3ef19898cd7ee821b93a4da3c9

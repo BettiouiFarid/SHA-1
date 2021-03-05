@@ -33,3 +33,6 @@ id = "bettiouifarid"
 y = "03b1663dda6549a0939ffdd712a852e0d4234e6b"
 
 x = H(id , y)
+
+#X apres le hashage est :  972a67c48192728a34979d9a35164c1295401b71
+#la valeur de H apres le hashage :  034d56442f5cd7e3141ef357db246ed4faf7b1e5
