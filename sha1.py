@@ -16,7 +16,7 @@ def shaone (text):
 def H(text1,text2):
     id = text1
     y = text2
-    x = 0   #35
+    x = 0   #35    23
 
     while True :
         
@@ -29,7 +29,7 @@ def H(text1,text2):
         
         x += 1
         
-id = "bettiouifarid"
+id = input("veuillez-vous saiser votre ID : ")
 y = "03b1663dda6549a0939ffdd712a852e0d4234e6b"
 
 x = H(id , y)

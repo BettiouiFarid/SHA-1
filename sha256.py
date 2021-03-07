@@ -16,7 +16,7 @@ def sha256 (text):
 def H(text1,text2):
     id = text1
     y = text2
-    x = 0       #10000000015880         
+    x = 0       #10000000015880       20505
 
     while True :
         
@@ -29,7 +29,7 @@ def H(text1,text2):
         
         x += 1
         
-id = "bettiouifarid"
+id = input("veuillez-vous saiser votre ID : ")
 y = "00005d10cc11e27bd8d4d1ce91bc725665ddbaa6ca2498ef38a88a58ad48cdb4"
 
 x = H(id , y)
